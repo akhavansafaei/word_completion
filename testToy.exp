@@ -1,0 +1,15 @@
+S cute Found 'cute' with frequency 10
+D cute Delete 'cute' succeeded
+S cute NOT Found 'cute'
+S book NOT Found 'book'
+A book 10000 Add 'book' succeeded
+S book Found 'book' with frequency 10000
+S apple NOT Found 'apple'
+D apple Delete 'apple' succeeded
+S apple NOT Found 'apple'
+D apple Delete 'apple' failed
+AC c Autocomplete for 'c': [ calm: 1000 cuts: 50 cut: 30 ]
+AC cut Autocomplete for 'cut': [ cuts: 50 cut: 30 ]
+D cut Delete 'cut' succeeded
+AC cut Autocomplete for 'cut': [ cuts: 50 ]
+AC farms Autocomplete for 'farms': [ ]
